@@ -7,13 +7,9 @@ cask "cursor-gauge" do
   desc "Menu bar app for Cursor plan usage"
   homepage "https://github.com/CharcoalDev04/cursor-gauge"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Cursor Gauge.app"
-
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Cursor Gauge.app"]
-  end
 
   zap trash: [
     "~/Library/Preferences/com.cursorgauge.app.plist",
