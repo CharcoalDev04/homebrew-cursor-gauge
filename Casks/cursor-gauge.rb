@@ -1,6 +1,6 @@
 cask "cursor-gauge" do
-  version "2.0.3"
-  sha256 "90df07c71dd53ad0cd68759f8d5dcab00487620532ec1a65b58e4a4fa65131a8"
+  version "2.0.4"
+  sha256 "e2e0a5cce8eb51d5592b163e5353b23d21bb4e15cb3c322c718a5ab4f96db471"
 
   url "https://github.com/CharcoalDev04/cursor-gauge/releases/download/v#{version}/CursorGauge-#{version}.zip"
   name "Cursor Gauge"
